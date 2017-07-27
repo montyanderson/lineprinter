@@ -2,6 +2,8 @@
 
 Print to USB line printers from Node
 
+![](https://i.imgur.com/D7FIJaS.jpg)
+
 ## Usage
 
 ``` javascript
