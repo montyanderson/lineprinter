@@ -34,10 +34,23 @@ const printer = await LinePrinter.connect("lp0");
 
 Returns a `LinePrinter` connected to the first printer found.
 
+``` javascript
+const printer = await LinePrinter.auto();
+```
+
 #### async LinePrinter#print(data)
 
 Prints `data` to the printer. Can be a `String` or `Buffer`.
 
+``` javascript
+await printer.print("Hello");
+```
+
 #### async LinePrinter#println(data)
 
 Prints `data` to the printer, followed by a line break.
+
+
+``` javascript
+await printer.println("Hello, World!");
+```
